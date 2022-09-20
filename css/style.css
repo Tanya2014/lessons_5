@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&display=swap');
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+body{
+   margin: 0px auto;
+   max-width: 900px;
+}
+main {
+   font-family: 'Roboto', sans-serif;
+   
+}
+h1.norge {
+   font-size: 45px;
+   font-weight: 700;
+   letter-spacing: 3px;
+   text-align: center;
+   font-family: "Caveat", sans-serif;
+   font-weight: 700;
+   text-shadow: 1px 2px 5px red;
+   margin-bottom: 30px;
+}
+
+h2 {
+   font-size: 25px;
+   font-weight: 500;  
+   text-align: center; 
+   text-decoration: underline;
+   font-family: "Caveat", sans-serif;
+   font-weight: 500;
+   margin-bottom: 20px;
+   text-shadow: 1px 1px 2px rebeccapurple;
+   letter-spacing: 4px;
+}
+
+div {
+   text-indent: 20px;
+   line-height: 1.5;
+}
+img {
+   width: 900px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+p.norge-one {
+   text-align: justify;
+}
+.list {
+  margin-bottom: 25px;
+}
+.list-info {
+   font-family: "Caveat", sans-serif;
+   color: red;
+   font-size: 20px;
+}
+.item-one {
+   margin-bottom: 30px;
+}
+.one {
+   text-align: justify;
+   text-decoration: line-through;
+}
+.item-two {
+   margin-bottom: 30px;
+}
+.two {
+   text-decoration: overline;
+}
+/* експеремент */
+.two,
+.item-none {
+   color: brown;
+}
+p.item-none{
+   color: blueviolet;
+}
+/* ---------- */
+
+.troll {
+}
+.item-three {
+   margin-bottom: 30px;
+}
+.three {
+   text-transform: lowercase;
+}
+.item-three,
+.fon {
+   text-transform: uppercase;
+}
+.vigelandsparen {
+}
+.item-four {
+   margin-bottom: 30px;
+}
+
+.four {
+   text-align: center;
+   text-decoration: line-through;
+}
+.four-one {
+   text-decoration: underline;
+}
+.horse {
+}
+.item-five {
+   margin-bottom: 30px;
+   font-family: "CircularStd", sans-serif;
+   font-weight: 500;
+}
+.five {
+   text-shadow: 1px 1px 3px yellowgreen;
+}
+.item-six {
+   margin-bottom: 30px;
+}
+.item-six p{
+   font-size: 25px;
+   text-transform: capitalize;
+}
+.item-seven {
+   margin-bottom: 30px;
+   background-color: blueviolet;
+   width: 900px;
+   height: 300px;
+   padding: 20px 20px 20px 20px;
+}
+.seven {
+   text-align: justify;
+   text-decoration: line-through;
+}
+.item-eight {
+   margin-bottom: 30px;
+}
+.eight {
+   text-transform: lowercase;
+}
+
+.item-nine {
+   margin-bottom: 30px;
+}
+p.nine {
+   text-transform: uppercase;
+   color: brown;
+}
